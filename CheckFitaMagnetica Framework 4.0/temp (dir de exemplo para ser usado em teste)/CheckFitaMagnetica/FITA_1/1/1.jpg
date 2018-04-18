@@ -1,0 +1,58 @@
+1.jpg
+000000 20130218 022147 0000 ERRO DE APLICACAO / Message: ORA-00942: a tabela ou view não existe
+ORA-00942: a tabela ou view não existe / Local do erro:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForMultpleResults(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at RNCockpitSecretariaVendas.ListarUnidadesPendentesPrevilegiado(Int32 iCodRegional) in c:\Users\Alexandro\Desktop\Cyrelo\Sistemas em .NET Cyrela\dev\dev\FilaAtendimento\src\PVWebSolution\App_Code\RNCockpitSecretariaVendas.cs:line 62
+   at UCCockpitSecretariaVendas.PreencheGridEscriturado() in c:\Users\Alexandro\Desktop\Cyrelo\Sistemas em .NET Cyrela\dev\dev\FilaAtendimento\src\PVWebSolution\UCCockpitSecretariaVendas.ascx.cs:line 90 / InfoAdicional: ---> Erro runtime passo 30
+ / 
+000000 20130218 022147 0000 ERRO DE APLICACAO / Message: ORA-00942: a tabela ou view não existe
+ORA-00942: a tabela ou view não existe / Local do erro:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForMultpleResults(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Campos.LoadRows() in c:\Users\Alexandro\Desktop\Cyrelo\Sistemas em .NET Cyrela\dev\dev\FilaAtendimento\src\PVWebSolution\App_Code\Campos.cs:line 329
+   at RNCockpitSecretariaVendas.ListaResumoPropostaPrivilegio(Int32 iCodRegional, DateTime dtIni, DateTime dtFim) in c:\Users\Alexandro\Desktop\Cyrelo\Sistemas em .NET Cyrela\dev\dev\FilaAtendimento\src\PVWebSolution\App_Code\RNCockpitSecretariaVendas.cs:line 201
+   at UCCockpitSecretariaVendas.PreencheResumoProposta() in c:\Users\Alexandro\Desktop\Cyrelo\Sistemas em .NET Cyrela\dev\dev\FilaAtendimento\src\PVWebSolution\UCCockpitSecretariaVendas.ascx.cs:line 333 / InfoAdicional: ---> Erro runtime passo 30
+ / 
+000000 20130218 022147 0000 ERRO DE APLICACAO / Message: ORA-00942: a tabela ou view não existe
+ORA-00942: a tabela ou view não existe / Local do erro:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForMultpleResults(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at RNCockpitSecretariaVendas.ListarUnidadesRescisaoPrevilegiado(Int32 iCodRegional, DateTime dtIni, DateTime dtFim) in c:\Users\Alexandro\Desktop\Cyrelo\Sistemas em .NET Cyrela\dev\dev\FilaAtendimento\src\PVWebSolution\App_Code\RNCockpitSecretariaVendas.cs:line 285
+   at UCCockpitSecretariaVendas.PreencheGridRecisao() in c:\Users\Alexandro\Desktop\Cyrelo\Sistemas em .NET Cyrela\dev\dev\FilaAtendimento\src\PVWebSolution\UCCockpitSecretariaVendas.ascx.cs:line 421 / InfoAdicional: ---> Erro runtime passo 30
+ / 
+000000 20130218 022147 0000 ERRO DE APLICACAO / Message: ORA-00942: a tabela ou view não existe
+ORA-00942: a tabela ou view não existe / Local do erro:    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForMultpleResults(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at RNCockpitSecretariaVendas.ListarUnidadesReservasPrevilegiado(Int32 iCodRegional, String sLetraFiltro) in c:\Users\Alexandro\Desktop\Cyrelo\Sistemas em .NET Cyrela\dev\dev\FilaAtendimento\src\PVWebSolution\App_Code\RNCockpitSecretariaVendas.cs:line 404
+   at UCCockpitSecretariaVendas.PreencheGridReserva(String sLetraFiltro) in c:\Users\Alexandro\Desktop\Cyrelo\Sistemas em .NET Cyrela\dev\dev\FilaAtendimento\src\PVWebSolution\UCCockpitSecretariaVendas.ascx.cs:line 504 / InfoAdicional: ---> Erro runtime passo 100
+ / 
